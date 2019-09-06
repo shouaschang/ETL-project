@@ -37,4 +37,4 @@ Company List
 The final database, tables/collections, and why this was chosen.
 
 We created a NYSE_db databse in PostgreSQL. From the tables created in SQL, we added the ticker as the primary key in the query.sql file. We then used SQLAlchemy to load data into the tables created.
-<img src="../Resources/Loading_Image.png" />
+<img src="/Resources/Loading_Image.png" />
