@@ -1,8 +1,8 @@
-select * from ticker_symbol
+SELECT * FROM ticker_symbol;
 
-right join company on company.ticker = ticker_symbol.ticker;
+RIGHT JOIN company ON company.ticker = ticker_symbol.ticker;
 
-alter table company
-add primary key (ticker);
+ALTER TABLE company
+add PRIMARY KEY (ticker);
 
-select * from company
+SELECT * FROM company;
